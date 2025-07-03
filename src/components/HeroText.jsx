@@ -7,7 +7,7 @@ import { motion } from 'motion/react';
 
 const HeroText = () => {
 
-    const words = ["secure","moden","scalable"];
+    const words = ["secure","moden","scalable","innovative"];
 const varriants = {
     hidden:{opacity: 0 , x :-50},
     visible: {opacity: 1 , x: 0}
@@ -82,7 +82,7 @@ transition={{delay: 1}}>
          variants={varriants}
          initial="hidden" 
          animate="visible"
-        transition={{delay: 1.8}}>Web Application</motion.p>
+        transition={{delay: 1.8}}>Web Applications</motion.p>
     </div>
 
 </div>
