@@ -18,14 +18,14 @@ const mountain1Y = useTransform(x,[0,0.5],["0%", "0%"]);
 
 
   return (
-    <section className='absolute inset-0 bg-black/40  overflow-y-scroll no-scrollbar'>
-        <div className='relative h-screen overflow-y-hidden'>
+    <section className='absolute inset-0 bg-black/40  overflow-x-hidden'>
+        <div className='relative h-screen overflow-y-hidden  no-scrollbar'>
  {/* background sky*/}
  <div  className='absolute inset-0 w-full h-screen -z-50'
         style={{
             backgroundImage: "url(/assets/sky.jpg)",
             backgroundSize: "cover",
-            backgroundPosition: "bottom"
+            backgroundPosition: "bottom",
 
         }}/>
          {/*mountain layer 3*/}
@@ -34,7 +34,7 @@ const mountain1Y = useTransform(x,[0,0.5],["0%", "0%"]);
             backgroundImage: "url(/assets/mountain-3.png)",
             backgroundSize: "cover",
             backgroundPosition: "bottom",
-            y: mountain3Y
+            y: mountain3Y,
 
         }}/>
             {/*planet*/}
@@ -52,7 +52,7 @@ const mountain1Y = useTransform(x,[0,0.5],["0%", "0%"]);
             backgroundImage: "url(/assets/mountain-2.png)",
             backgroundSize: "cover",
             backgroundPosition: "bottom",
-            y: mountain2Y
+            y: mountain2Y,
 
         }} />
 

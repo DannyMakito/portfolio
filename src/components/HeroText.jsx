@@ -24,14 +24,15 @@ const varriants = {
         initial="hidden" 
         animate="visible"
         transition={{delay: 1}}
-        >Hi im   Makito</motion.h1>
+        >Hi im   
+        </motion.h1>
         <div className="flex flex-col items-start"> 
             <motion.p className='text-5xl font-medium text-neutral-300'
              variants={varriants}
              initial="hidden" 
              animate="visible"
             transition={{delay: 1.2}}>
-                A developer <br />Dedicated to crafting
+                A developer <br />Dedicated to crafting good
             </motion.p>
 
             {/*get clip from acernity ui*/}

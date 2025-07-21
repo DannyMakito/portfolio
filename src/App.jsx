@@ -3,6 +3,9 @@ import Navbar from './sections/Navbar'
 import Hero from './sections/Hero'
 import About from './sections/About'
 import Projects from './sections/Projects'
+import Experience from './sections/Experience'
+import Testimonial from './sections/Testimonial'
+import Contact from './sections/Contact'
 
 
 
@@ -16,9 +19,10 @@ function App() {
           <Hero />
           <About />
           <Projects />
-          <section className="min-h-screen  overflow-y-scroll no-scrollbar"/>
-          <section className="min-h-screen  overflow-x-scroll no-scrollbar"/>
-          <section className="min-h-screen  overflow-x-scroll no-scrollbar"/>
+          <Experience />
+          <Testimonial />
+          <Contact />
+         <section className='min-h-screen'/>
          
 
 
