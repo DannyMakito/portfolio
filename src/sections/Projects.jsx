@@ -9,8 +9,8 @@ const Projects = () => {
 
   const x = useMotionValue(0);
   const y = useMotionValue(0);
-  const springX = useSpring(x,{daping:10,stiffness:50});
-  const springY= useSpring(y,{daping:10,stiffness:50});
+  const springX = useSpring(x,{damping:10,stiffness:50});
+  const springY= useSpring(y,{damping:10,stiffness:50});
   const handleMouseMove=(e)=>{
     x.set(e.clientX+20);
     y.set(e.clientY+20);
