@@ -6,7 +6,7 @@ import Projects from './sections/Projects'
 import Experience from './sections/Experience'
 import Testimonial from './sections/Testimonial'
 import Contact from './sections/Contact'
-
+import Footer from './sections/Footer'
 
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
           <Experience />
           <Testimonial />
           <Contact />
-         <section className='min-h-screen'/>
+         <Footer/>
          
 
 
