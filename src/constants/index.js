@@ -1,7 +1,7 @@
 export const myProjects = [
     {
       id: 1,
-      title: "E-commerce Platform",
+      title: "Luxury Accommodation Platform",
       description:
         "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
       subDescription: [
@@ -10,9 +10,9 @@ export const myProjects = [
         "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
         "Added payment systems, localization, and product filtering for functionality improvements.",
       ],
-      href: "",
+      href: "https://makisereno.netlify.app/",
       logo: "",
-      image: "/assets/projects/accessories.jpg",
+      image: "/assets/projects/makiserno.png",
       tags: [
         {
           id: 1,
