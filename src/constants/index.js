@@ -78,7 +78,6 @@ subDescription: [
   "Used Appwrite for secure authentication, role-based access control (Admin, HR, Employee), and real-time database updates.",
   "Developed a modular React frontend with Tailwind CSS for responsive dashboards and user-friendly navigation.",
   "Implemented core features such as employee profiles, leave requests, attendance tracking, and performance metrics.",
-  "Integrated notifications, data filtering, and admin analytics to streamline HR operations and decision-making.",
   "ADMIN LOGIN : admin@graceartisanschool.com password : admin1",
   "EMPLOYEE LOGIN : leo@gmail.com password : leo123 or create your own in admindashboard",
 ],
