@@ -6,7 +6,10 @@ const{ progress} = useProgress();
 
   return (
     <Html center className='font-black text-2xl text-center'>
-        {progress}%  give me a second. I am loading
+        {progress}% 
+        <div>
+            <p>give me a second. I am loading</p>
+        </div>
     </Html>
   )
 }
