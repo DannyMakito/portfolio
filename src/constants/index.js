@@ -233,9 +233,9 @@ subDescription: [
       icon: "/assets/socials/linkedIn.svg",
     },
     {
-      name: "Instagram",
-      href: "https://www.instagram.com/ali.sanatidev/reels/",
-      icon: "/assets/socials/instagram.svg",
+      name: "Github",
+      href: "https://github.com/DannyMakito",
+      icon: "/assets/socials/github.svg",
     },
   ];
   
@@ -265,7 +265,7 @@ subDescription: [
       ],
     },
     {
-      title: "Freelance Developer",
+      title: "Freelance software Developer",
       job: "Self-Employed",
       date: "2025-Present",
       contents: [

@@ -38,7 +38,7 @@ const About = () => {
                         <Card  containerRef={grid2Container} style={{rotate: "90deg",buttom:"30%",left:"70%"}} text="Design principle"/>
                         <Card containerRef={grid2Container} style={{rotate: "-45deg",top:"55%",left:"0%"}} text="SEO"/>
                         <Card containerRef={grid2Container}  style={{rotate: "20deg",top:"10%",left:"38%"}} text="Agile"/>
-                        <Card containerRef={grid2Container} style={{rotate: "30deg",top:"70%",left:"70%"}} image="assets/logos/dotnet-pink.png"/>
+                        <Card containerRef={grid2Container} style={{rotate: "30deg",top:"70%",left:"70%"}} image="assets/logos/react.svg"/>
                         <Card containerRef={grid2Container} style={{rotate: "-45deg",top:"70%",left:"25%"}} image="assets/logos/blazor-pink.png"/>
                         <Card containerRef={grid2Container} style={{rotate: "-45deg",top:"5%",left:"10"}} image="assets/logos/csharp-pink.png"/>
                     </div>
